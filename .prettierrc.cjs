@@ -2,7 +2,7 @@ module.exports = {
 	singleQuote: true,
 	parser: 'typescript',
 	trailingComma: 'all',
-	semi: false,
+	semi: true,
 	useTabs: true,
 	tabWidth: 4,
 	printWidth: 100,
@@ -12,4 +12,4 @@ module.exports = {
 	quoteProps: 'as-needed',
 	arrowParens: 'always',
 	bracketSpacing: true,
-}
+};
